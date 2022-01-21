@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="DataCom Suite" annotations="JDK">
+
+    <test name="Payee">
+        <classes>
+            <class name="PayeeTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Payment">
+        <classes>
+            <class name="PaymentTest"/>
+        </classes>
+    </test>
+
+</suite>
